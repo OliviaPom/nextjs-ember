@@ -44,7 +44,7 @@ export default function Home() {
         }
         .invoicing-content > h1 {
           color: white;
-          font-size: 56px;
+          font-size: 30px;
         }
         .invoicing-content > a {
           font-family: 'Nanum Gothic', sans-serif;
@@ -73,6 +73,10 @@ export default function Home() {
             margin-top: 15vh;
             margin-left: 5%;
             width: 40%;
+          }
+          .invoicing-content > h1 {
+            color: white;
+            font-size: 56px;
           }
         }
       `}</style>
